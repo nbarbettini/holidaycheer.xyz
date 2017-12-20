@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Cheer as a service by Nate Barbettini</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+    <style>
+      body {
+        font-size: 1.5em;
+        line-height: 1.6;
+        font-weight: 400;
+        font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #222;
+      }
+
+      .container {
+        position: relative;
+        width: 80%;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 200px 20px 0px;
+        box-sizing: border-box;
+      }
+
+      .header {
+        text-align: center;
+        padding-bottom: 40px;
+      }
+
+      section {
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <h1>Cheer as a service 🎄</h1>
+      </section>
+      <section>
+        <p>
+          A little API for spreading holiday cheer, powered by AWS Lambda and API Gateway.
+        </p>
+        <pre><code>GET https://api.holidaycheer.xyz/cheer
+
+200 OK
+{
+  "holidaySeason": true,
+  "greeting": "Merry Christmas!"
+}</code></pre>
+
+        <p>
+          Or, get a personalized greeting:
+        </p>
+        <pre><code>POST https://api.holidaycheer.xyz/cheer
+Content-Type: application/json
+{
+  "name": "Nate"
+}
+
+200 OK
+{
+  "holidaySeason": true,
+  "greeting": "Happy holidays, Nate!"
+}</code></pre>
+      </section>
+      <section>
+        <h5>Build it yourself</h3>
+        <p>
+          Follow my <a>tutorial</a> to learn how to build your own cheerful API, or check out the <a href="https://github.com/nbarbettini/holidaycheer.xyz">code on GitHub.</a>
+        </p>
+        <p>
+          Merry Christmas! ❄️ <br>
+          Love, <a href="https://www.recaffeinate.co">Nate</a>
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
