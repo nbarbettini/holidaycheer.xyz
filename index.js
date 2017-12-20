@@ -14,7 +14,8 @@ const phrases = [
   'Merry Christmas',
   'Ho ho ho',
   'Feliz Navidad',
-  'Happy Hanukkah'
+  'Happy Hanukkah',
+  'Season\'s greetings'
 ];
 
 function createCheerfulResponse(name) {
