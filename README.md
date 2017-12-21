@@ -30,4 +30,4 @@ Content-Type: application/json
 
 ## Build it yourself
 
-Follow my [tutorial]() to learn how to build your own cheerful API!
+Follow my [tutorial](https://developer.okta.com/blog/2017/12/21/spread-serverless-holiday-cheer) to learn how to build your own cheerful API!
